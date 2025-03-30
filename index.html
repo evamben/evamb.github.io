@@ -1,0 +1,117 @@
+---
+layout: default
+---
+
+<header>
+  <div class="container">
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+  </div>
+</header>
+
+<div class="container main-container">
+  <!-- ===== Left Sidebar ===== -->
+  <aside class="sidebar">
+    <!-- ADD THIS NAVIGATION MENU -->
+    <nav class="section-nav">
+      <h3>Jump To Section</h3>
+      <ul>
+        <li><a href="#eva">Chronic Crisis</a></li>
+        <li><a href="#alba">Revenue Analysis</a></li>
+        <li><a href="#camilla">The Twitter Effect</a></li>
+      </ul>
+    </nav>
+    <hr>
+
+    <h3>References</h3>
+    <hr>
+    <ul class="story-list">
+      <li><strong><a
+            href="https://www.the-express.com/news/us-news/107493/san-Francisco-tenderloin-fentanyl-crisis">Covid vs
+            Fentanyl [1] </a></strong><br></li>
+      <li><strong>TRAVEL</strong><br>Hidden gardens in Tokyo hotels.</li>
+      <li><strong>SCIENCE</strong><br>7 night sky events in April.</li>
+    </ul>
+  </aside>
+
+  <!-- ===== Main Content ===== -->
+  <main class="main-content">
+    <!-- Eva's Part -->
+    <div class="graph-wrapper" id="eva">
+      <h2>Chronic Crisis</h2>
+      <p><strong>What if one neighborhood bore the weight of an entire city’s crisis?</strong> Look at the graph: two
+        decades of data, one undeniable truth. While overdose rates fluctuate across San Francisco’s districts, the
+        Tenderloin’s line climbs relentlessly, a jagged peak towering above the rest. <strong>Even at COVID’s height,as
+          we see in this <a href="https://www.the-express.com/news/us-news/107493/san-Francisco-tenderloin-fentanyl-crisis">article [1]</a>,
+          more people here died from fentanyl than from the virus.</strong></p>
+
+      <p>The Mission, the Richmond, Southern? Their numbers are <em>footnotes</em> in comparison.</p>
+      <div class="graph-container">
+        {% include drug_heatmap.html %}
+      </div>
+      <p class="graph-caption">Figure 1: Drug-Related Incidents by District and Year</p>
+      <p>This is the <strong>Tenderloin</strong>: 50 blocks where policies fail, where epidemics outlast pandemics,
+        where San Francisco’s starkest disparity plays out daily. The question isn’t whether it’s the epicenter, the data
+        <strong>screams</strong> yes. The question is: <em>why does it still look like this</em>, even when the numbers
+        briefly improve, only to surge again?
+      </p>
+
+
+
+    </div>
+
+    <!-- Alba's Part -->
+    <div class="graph-wrapper" id="alba">
+      <h2>Revenue Analysis</h2>
+      <p>Here is the info of Alba</p>
+      <div class="graph-container">
+        {% include event_graph.html %}
+      </div>
+    </div>
+
+    <!-- Camilla's Part -->
+    <div class="graph-wrapper" id="camilla">
+      <h2>The Twitter Effect</h2>
+      <p>When Twitter opened its headquarters in San Francisco’s Tenderloin district in 2012, it didn’t just bring tech
+        jobs—it altered the neighborhood in ways the area’s still dealing with. To understand its impact, we need to
+        look at how drug-related crime looked like before and after the company’s arrival.
+
+        Back in 2010, the Tenderloin had 2,841 drug-related reported incidents, with 90 occurring near the future site
+        of Twitter’s office—a triangle formed by Market, Larkin, and McAllister Streets. By 2011, that number had
+        already dropped to 59, likely due to increased police presence ahead of Twitter’s move. When the company
+        officially settled in 2012, crime levels held steady—but the real shifts came in the years that followed.
+
+        By 2013, something unexpected happened: drug crimes didn’t move away from Twitter’s presence—it got closer. For
+        the first time, five incidents were reported at 9th and Market Streets, just a two-minute walk from the office.
+        The following year, the numbers nearly doubled, with 150 incidents recorded in the immediate vicinity. The trend
+        only accelerated from there. In 2015, United Nations Plaza—a seven-minute walk from Twitter—saw 128 incidents,
+        up from just 16 in 2011. That’s a staggering 700\% increase in just four years.
+
+        By 2018, crime had reached 245 incidents just a block away, with reports now appearing on the streets directly
+        bordering Twitter’s building. Some of this surge may have been due to reduced police presence, as noted in
+        reports at the time (add article link here). Then came the pandemic. In 2020, drug crime dipped—as it did in
+        much of the city—but by 2021, it was climbing again. By 2022, the Civic Center area, just two minutes from
+        Twitter’s HQ, recorded 845 incidents. Even in 2024, crime remained elevated, with 164 incidents reported right
+        outside the offices.
+
+        So why did crime rise so sharply around Twitter’s headquarters? While direct causation is hard to prove, several
+        factors likely played a role. First, Twitter’s arrival accelerated gentrification in the Tenderloin, a
+        historically low-income area. As property values rose, long-term residents and businesses were displaced,
+        creating economic strain that may have contributed to street-level crime. Second, the influx of tech workers,
+        visitors, and contractors brought more potential targets—and more opportunities for theft and drug-related
+        offenses. Finally, dealers may have deliberately moved closer to the area, seeing the steady stream of employees
+        and foot traffic as an ideal market.
+
+        Twitter’s presence undeniably transformed the Tenderloin, but not always in the ways people expected. While the
+        company brought investment and jobs, it also became a focal point for the neighborhood’s ongoing struggles with
+        crime and displacement—a reminder that urban change rarely comes without unintended consequences.</p>
+      <div class="graph-container">
+        {% include drug_incidents_tenderloin.html %}
+      </div>
+    </div>
+
+
+
+
+  </main>
+</div>
