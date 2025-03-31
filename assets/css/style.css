@@ -228,3 +228,51 @@ svg {
     hyphens: none;
   }
 }
+
+.contributions-table {
+  margin: 3rem 0;
+  padding: 1.5rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.contributions-table h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.contributions-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contributions-table th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  background-color: #e0e0e0;
+  border-bottom: 2px solid #ccc;
+}
+
+.contributions-table td {
+  padding: 1rem;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+}
+
+.contributions-table ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.contributions-table li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.contributions-table ul ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+  font-size: 0.9em;
+  color: #555;
+}
