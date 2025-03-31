@@ -38,27 +38,24 @@ layout: default
   <main class="main-content">
     <!-- Eva's Part -->
     <div class="graph-wrapper" id="eva">
-      <h2>What if one neighborhood bore the weight of an entire city’s crisis?</h2>
-      <p><strong>What if one neighborhood bore the weight of an entire city’s crisis?</strong> Look at the graph: two
-        decades of data, one undeniable truth. While overdose rates fluctuate across San Francisco’s districts, the
-        Tenderloin’s line climbs relentlessly, a jagged peak towering above the rest. <strong>Even at COVID’s height,as
-          seen in <a
-            href="https://www.the-express.com/news/us-news/107493/san-Francisco-tenderloin-fentanyl-crisis">article
-            [1]</a>,
-          more people in Tenerloin died from fentanyl than from the virus.</strong></p>
+      <h2>What if one neighborhood bore the weight of an entire city’s drug crisis?</h2>
+      <p><strong><p><strong>If one neighborhood carries the weight of an entire city's <em>drug crisis</em>, it’s the <em>Tenderloin</em>.</strong> 
+        Two decades of data reveal an undeniable truth: while overdose rates fluctuate across San Francisco, the Tenderloin’s numbers keep climbing,
+        <strong>a jagged peak towering over the rest.</strong> Even at the height of COVID, as seen in 
+        <a href="https://www.the-express.com/news/us-news/107493/san-Francisco-tenderloin-fentanyl-crisis">article [1]</a>, 
+        more people in the Tenderloin died from fentanyl than from the virus.</p>
 
-      <p>The Mission, the Richmond, Southern? Their numbers are <em>footnotes</em> in comparison.</p>
+      <p><strong>The Mission, the Richmond, Southern?</strong> Their numbers barely compare.</p>
       <div class="graph-container">
         {% include drug_heatmap.html %}
       </div>
       <p class="graph-caption">Figure 1: Drug-Related Incidents by District and Year</p>
-      <p>The Tenderloin is known as the <strong>heart of San Francisco’s inequality</strong>. Here, policies fail,
-        <strong>health crises</strong> outlive emergencies, and progress never lasts. The data doesn’t just hint at
-        this, it <em>shouts</em> it. But there’s a bigger question: <em>Why do things stay so bad here, even when there’s
-          small signs of hope?</em> This is clearest in the area’s long fight against <strong>drug crime</strong>.
-      </p>
+      <p>If the data makes one thing evident, it’s that drug-related crime in the Tenderloin has been relentless. 
+        Incidents have risen steadily over the years, hitting alarming highs in <strong>2008 and 2009</strong>, nearly doubling previous figures. 
+        In those two years alone, drug-related crimes surged to approximately <strong>9,617</strong>, a <strong>60% increase</strong> compared to 
+        just a few years prior.</p>
 
-      <p>By <strong>2008–2009</strong>, drug crimes in the Tenderloin jumped sharply to <strong>9,617</strong>, a
+      <p>By <strong>2008–2010</strong>, drug crimes in the Tenderloin jumped sharply to <strong>9,617</strong>, a
         <strong>60% increase</strong> from earlier years. These aren’t just numbers. They show a <strong>broken
           system</strong>. Policies meant to fix things often fail when old problems return. Crime dips briefly, then
         spikes again. The data screams that the Tenderloin is in crisis, but it also reveals a quiet truth: <em>doing
@@ -73,22 +70,43 @@ layout: default
 
     <!-- Alba's Part -->
     <div class="graph-wrapper" id="alba">
-      <h2>More Crime, More Promises. But Where’s the Action?</h2>
-      <p>In <strong>2010</strong>, we can observe in the graph below, a decrease in drug-related crimes across the Tenderloin, but the real
+      <h2>More and more crime, yet where was the response? Where was the action to curb this crisis?</h2>
+      <p>In <strong>2010</strong>, drug-related crime in Tenderloin finally saw a decline, but the real
         reduction didn’t occur until <strong>January 2014</strong>, when the city took one of its first targeted
         actions: <strong>banning parking on Turk Street</strong>. This measure was aimed at curbing drug-related
         activity by preventing dealers and users from congregating in parked cars. Initially, the strategy seemed
-        effective—drug crimes dropped from <strong>1,000</strong> incidents per year and appeared to relax due to the
+        effective, drug crimes dropped from <strong>1,000</strong> incidents per year and appeared to relax due to the
         ban. However, this was only a temporary win.</p>
 
-      <p>From <strong>2018</strong> onward, crime levels began to rise again, eventually reaching record-breaking levels
-        by <strong>July 2022</strong>, with figures reminiscent of the <strong>2008-2009</strong> peaks. Despite the
-        urgency, the government was slow to respond, and it wasn’t until <strong>December 2021</strong> that San
+      <p>From <strong>2018 onward</strong>, crime levels began to rise again, eventually reaching record-breaking levels
+        by <strong>July 2022</strong>, with numbers recalling the <strong>2008-20010</strong> crisis. 
+        Despite the urgency, the government was slow to respond, and it wasn’t until <strong>December 2021</strong> that San
         Francisco declared a <strong>state of emergency</strong> in the <strong>Tenderloin</strong>. This included
         ramping up police patrols and creating more focused operations to tackle drug trafficking and violent crime in
         the area. The city began working more closely with <strong>federal</strong> and <strong>state agencies</strong>
         to curb the crisis. However, the results were mixed, with drug-related incidents continuing to surge despite
         increased law enforcement presence.</p>
+
+      <p>In <strong>May 2023</strong>, the <strong>DMACC Center</strong> (<strong>Drug Market Analysis Coordination
+          Center</strong>) was launched. The center aimed to streamline efforts by local, state, and federal agencies in
+        combating drug trafficking and organized crime. However, just <strong>29 days later</strong>, drug-related
+        incidents surged again, suggesting that either the response time was too long or that the drug crimes in the
+        <strong>Tenderloin</strong> are relentless.
+      </p>
+
+      <p>By <strong>November 2023</strong>, the numbers were once again at record highs. In <strong>March 2024</strong>, the city intensified police patrols on <strong>Sixth Street</strong>, 
+        one of the hardest-hit areas. But the impact was minimal, leaving residents and officials alike wondering: <strong>Why wasn’t action taken sooner? 
+        And why do the current strategies seem to fall short?</strong></p>
+
+      <p>All of this is reflected in the <strong>time series graph below</strong>, which traces the evolution of <em>San Francisco’s drug crisis</em> over time. 
+        The data tells a sobering stor, —while recent years have seen troubling spikes, the long-term trend suggests a slow decline. 
+        The crisis is far from over, but perhaps, despite everything, there’s still reason to believe that lasting change is possible.</p>
+
+      <div class="graph-container">
+        {% include event_graph.html %}
+      </div>
+    </div>
+
       <!-- Second Graph: Event Timeline -->
       <div class="graph-container">
         {% include event_graph.html %}
