@@ -18,10 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Tenderloin, San Francisco's Drug Epidemic Ground Zero
+title: Tenderloin: Ground Zero of San Francisco’s Drug Crisis
 email: evambensan@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  No neighborhood in the city suffers more from overdoses, yet no real change lasts. Is the Tenderloin trapped in a cycle no policy can break?
+  This article is based on an analysis of drug-related incidents reported by the San Francisco Police Department between 2008 and 2025. Drawing from nearly two decades of official records, 
+  it explores how the city’s drug crisis has evolved, not just in numbers, but in patterns and geography.
 url: "https://evamb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  evamben
 domain: main   # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
